@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/dhanalakshmir13/portfolio.git/static/css/main.bdec5334.css",
+    "main.js": "/dhanalakshmir13/portfolio.git/static/js/main.16a8daee.js",
+    "static/media/Dhana.jpg": "/dhanalakshmir13/portfolio.git/static/media/Dhana.8108f580b3c83bf7bc04.jpg",
+    "static/media/certificate.jpg": "/dhanalakshmir13/portfolio.git/static/media/certificate.96e1e13f509faf37f1f1.jpg",
+    "static/media/skill.jpg": "/dhanalakshmir13/portfolio.git/static/media/skill.7712b17f6203c8a06d24.jpg",
+    "static/media/acheivement.jpg": "/dhanalakshmir13/portfolio.git/static/media/acheivement.aef1827f6d81fb1169e5.jpg",
+    "index.html": "/dhanalakshmir13/portfolio.git/index.html",
+    "main.bdec5334.css.map": "/dhanalakshmir13/portfolio.git/static/css/main.bdec5334.css.map",
+    "main.16a8daee.js.map": "/dhanalakshmir13/portfolio.git/static/js/main.16a8daee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdec5334.css",
+    "static/js/main.16a8daee.js"
+  ]
+}
