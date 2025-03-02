@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* === Dark Background === */
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Urbanist', sans-serif;
+}
+.app-container {
+  @apply text-white min-h-screen flex flex-col  justify-center relative overflow-hidden;
+  background-color: black;
+}
+
+/* === Spark Animation === */
+.spark-container {
+  @apply absolute top-0 left-0 w-full h-full pointer-events-none;
+}
+
+.spark {
+  @apply absolute w-2 h-2 bg-white rounded-full opacity-0 shadow-lg;
+  animation: sparkAnimation 2s infinite ease-in-out;
+}
+
+/* === Glowing effect and movement === */
+@keyframes sparkAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(0) scale(0.5);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-100px) scale(1.2);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 0.8);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-200px) scale(0.5);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+  }
+}
+
